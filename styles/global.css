@@ -1,0 +1,55 @@
+/* Espacement autour du tableau */
+.padd_table {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titre_table {
+    color: rgb(10, 116, 66); /* Ton vert foncé */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Structure globale du tableau */
+.table_patate {
+    width: 100%;
+    border-collapse: collapse; /* Fusionne les bordures des cellules */
+    background-color: beige;  /* Ton fond beige doux */
+    overflow: hidden;         /* Permet aux angles arrondis de fonctionner avec l'entête */
+}
+
+/* Style de l'entête (Header) */
+.table_patate th {
+    background-color: rgb(10, 116, 66); /* Ton vert pour l'entête */
+    color: white;
+    padding: 1.2rem;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+/* Style des cellules de contenu */
+.table_patate td {
+    padding: 1.2rem;
+    border-bottom: 1px solid rgba(10, 116, 66, 0.15); /* Ligne fine de séparation */
+    color: #333;
+    text-align: left;
+}
+
+/* Mise en valeur de la première colonne */
+.table_patate .feature_title {
+    font-weight: bold;
+    color: rgb(10, 116, 66);
+    width: 25%; /* Aligne proprement la largeur de la première colonne */
+}
+
+/* Effet au survol des lignes pour rendre le tableau interactif */
+.table_patate tbody tr:hover {
+    background-color: rgba(20, 238, 136, 0.1); /* Léger éclat vert au survol */
+    transition: background-color 0.2s ease;
+}
+
+/* Enlever la bordure du bas pour la dernière ligne */
+.table_patate tbody tr:last-child td {
+    border-bottom: none;
+}
