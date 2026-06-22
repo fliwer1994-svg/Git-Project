@@ -1,55 +1,101 @@
-/* Espacement autour du tableau */
-.padd_table {
-    padding: 2rem;
+/* Container Général de la page About */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    font-family: sans-serif;
 }
 
-.titre_table {
-    color: rgb(10, 116, 66); /* Ton vert foncé */
+/* Helper pour centrer verticalement en flexbox */
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+
+/* Typographies et Couleurs de la charte */
+.titre-principal {
+    color: #6f4e27; /* Marron de ton texte de marque */
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
-    text-align: center;
+    line-height: 1.2;
 }
 
-/* Structure globale du tableau */
-.table_patate {
-    width: 100%;
-    border-collapse: collapse; /* Fusionne les bordures des cellules */
-    background-color: beige;  /* Ton fond beige doux */
-    overflow: hidden;         /* Permet aux angles arrondis de fonctionner avec l'entête */
+.texte-about {
+    color: #4a4a4a;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
 }
 
-/* Style de l'entête (Header) */
-.table_patate th {
-    background-color: rgb(10, 116, 66); /* Ton vert pour l'entête */
-    color: white;
-    padding: 1.2rem;
-    text-align: left;
-    font-size: 1.1rem;
-}
-
-/* Style des cellules de contenu */
-.table_patate td {
-    padding: 1.2rem;
-    border-bottom: 1px solid rgba(10, 116, 66, 0.15); /* Ligne fine de séparation */
-    color: #333;
-    text-align: left;
-}
-
-/* Mise en valeur de la première colonne */
-.table_patate .feature_title {
+/* Le petit badge "100% Naturel" façon image */
+.badge-naturel {
+    background-color: #6f4e27;
+    color: #fffbfa;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
     font-weight: bold;
-    color: rgb(10, 116, 66);
-    width: 25%; /* Aligne proprement la largeur de la première colonne */
 }
 
-/* Effet au survol des lignes pour rendre le tableau interactif */
-.table_patate tbody tr:hover {
-    background-color: rgba(20, 238, 136, 0.1); /* Léger éclat vert au survol */
-    transition: background-color 0.2s ease;
+/* Section Histoire */
+.section-padding {
+    padding: 3rem;
 }
 
-/* Enlever la bordure du bas pour la dernière ligne */
-.table_patate tbody tr:last-child td {
-    border-bottom: none;
+/* Zone d'image temporaire (à droite de l'histoire) */
+.image-placeholder {
+    width: 80%;
+    height: 300px;
+    background-color: #fffbfa; /* Blanc cassé très doux */
+    border: 2px dashed #c28a24; /* Bordure ocre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-illustration {
+    font-size: 4rem;
+}
+
+/* Section des 3 cartes d'engagements */
+.grid-engagements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-engagement {
+    background-color: #fffbfa;
+    padding: 2rem;
+    border: 1px solid rgba(111, 78, 39, 0.1);
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.card-engagement:hover {
+    transform: translateY(-5px); /* Petit effet de lévitation au survol */
+}
+
+.card-engagement h3 {
+    color: #c28a24; /* Couleur ocre/or du bouton de ton image */
+    margin: 1rem 0 0.5rem 0;
+}
+
+.card-engagement p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Cercles d'icônes verts */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #e2f0d9; /* Vert très clair/doux végétal */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
 }
