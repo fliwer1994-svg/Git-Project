@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/ti/photos-gratuite/p1/25868045-brut-patate-contexte-pour-social-medias-publicite-biologique-nourriture-pour-en-bonne-sante-nutrition-generatif-ai-gratuit-photo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: rgb(122, 70, 6);;
+}
+
+
+.inner-container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.input_sec{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input{
+    box-shadow: none;
+}
+
+.alt_login{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn_login{
+    background-color: rgb(247, 158, 50);
+    width: 200px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+a{
+    color: blue;
+}/* Container Général de la page About */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    font-family: sans-serif;
+}
+
+/* Helper pour centrer verticalement en flexbox */
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+
+/* Typographies et Couleurs de la charte */
+.titre-principal {
+    color: #6f4e27; /* Marron de ton texte de marque */
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.texte-about {
+    color: #4a4a4a;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+
+/* Le petit badge "100% Naturel" façon image */
+.badge-naturel {
+    background-color: #6f4e27;
+    color: #fffbfa;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Section Histoire */
+.section-padding {
+    padding: 3rem;
+}
+
+/* Zone d'image temporaire (à droite de l'histoire) */
+.image-placeholder {
+    width: 80%;
+    height: 300px;
+    background-color: #fffbfa; /* Blanc cassé très doux */
+    border: 2px dashed #c28a24; /* Bordure ocre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-illustration {
+    font-size: 4rem;
+}
+
+/* Section des 3 cartes d'engagements */
+.grid-engagements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-engagement {
+    background-color: #fffbfa;
+    padding: 2rem;
+    border: 1px solid rgba(111, 78, 39, 0.1);
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.card-engagement:hover {
+    transform: translateY(-5px); /* Petit effet de lévitation au survol */
+}
+
+.card-engagement h3 {
+    color: #c28a24; /* Couleur ocre/or du bouton de ton image */
+    margin: 1rem 0 0.5rem 0;
+}
+
+.card-engagement p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Cercles d'icônes verts */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #e2f0d9; /* Vert très clair/doux végétal */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f2e7, #ffffff);
+    color: #333;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.content {
+    max-width: 550px;
+}
+
+.badge {
+    display: inline-block;
+    background: #8b5e34;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.highlight {
+    color: #c58b1d;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background: #c58b1d;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.image-container img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* FEATURES */
+
+.features {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #8b5e34;
+}
+
+.card p {
+    color: #666;
+}
+
+/* FOOTER */
+
+footer {
+    background: #8b5e34;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .image-container img {
+        max-width: 350px;
+    }
+}
+
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------- */
+/* ------ DEV3 — styles page contact ------*/
+/* --------------------------------------- */
+
+.contact-hero {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+.contact-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-hero p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.contact-wrapper {
+    display: flex;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.contact-form {
+    flex: 2;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 6px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #a0522d;
+}
+
+button[type="submit"] {
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #7a3e20;
+}
+
+.contact-infos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-infos h2 {
+    margin-bottom: 5px;
+}
+
+.info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background-color: #fdf6ec;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.info-card span {
+    font-size: 1.8rem;
+}
+
+.info-card h3 {
+    margin: 0 0 4px;
+    font-size: 0.95rem;
+}
+
+.info-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.info-card small {
+    color: #888;
+    font-size: 0.8rem;
+}
+
+nav{
+    position: fixed;
+    background-color: #8b5e34 ;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+/*  Dev 3 - fin  */
+/* ------------------------------------------------------------------------- */
