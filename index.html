@@ -1,14 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shampoing à la Patate | DruideDeBruxelles</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#f7f2e8,#fff);
+    color:#333;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+}
+
+.container{
+    max-width:1200px;
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.content{
+    flex:1;
+    min-width:300px;
+}
+
+.badge{
+    display:inline-block;
+    background:#8B5E34;
+    color:white;
+    padding:10px 20px;
+    border-radius:50px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+h1{
+    font-size:4rem;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.highlight{
+    color:#c58b1d;
+}
+
+p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+    color:#555;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#c58b1d;
+    color:white;
+    padding:16px 35px;
+    border-radius:12px;
+    font-size:1.1rem;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+.image-container{
+    flex:1;
+    text-align:center;
+    min-width:300px;
+}
+
+.image-container img{
+    width:100%;
+    max-width:500px;
+    border-radius:25px;
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.features{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.features h2{
+    font-size:2.5rem;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#8B5E34;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#8B5E34;
+    color:white;
+}
+</style>
 </head>
+
 <body>
-    <h1>Incroyable produit fait par le druideDeBruxelles
-    </h1>
-    <img src="./Image/3d12e2e4-5bb9-4b1d-b4a1-60dc50e25db8.png" alt="">
+
+<section class="hero">
+    <div class="container">
+
+        <div class="content">
+            <span class="badge">🌿 100% Naturel</span>
+
+            <h1>
+                Le Shampoing à la
+                <span class="highlight">Patate</span>
+            </h1>
+
+            <p>
+                Découvrez la puissance ancestrale du célèbre
+                DruideDeBruxelles. Une formule révolutionnaire
+                qui nourrit, renforce et sublime vos cheveux.
+            </p>
+
+            <a href="#" class="btn">
+                Commander maintenant
+            </a>
+        </div>
+
+        <div class="image-container">
+            <img src="./Image/3d12e2e4-5bb9-4b1d-b4a1-60dc50e25db8.png" alt="Shampoing à la patate">
+        </div>
+
+    </div>
+</section>
+
+<section class="features">
+
+    <h2>Pourquoi choisir notre shampoing ?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>💪 Renforce</h3>
+            <p>Des cheveux plus forts dès les premières utilisations.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚀 Stimule</h3>
+            <p>Aide à favoriser une croissance saine et naturelle.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌱 Naturel</h3>
+            <p>Formule inspirée des secrets du DruideDeBruxelles.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 DruideDeBruxelles • Tous droits réservés
+</footer>
 
 </body>
 </html>
