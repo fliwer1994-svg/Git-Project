@@ -103,6 +103,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -237,4 +238,4 @@ footer {
     .image-container img {
         max-width: 350px;
     }
-}}
+}
