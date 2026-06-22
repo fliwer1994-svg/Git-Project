@@ -64,8 +64,8 @@ a{
     flex-direction: column;
     gap: 3rem;
     max-width: 1200px;
-    margin: 3rem auto;
-    padding: 0 2rem;
+    /* margin: rem ; */
+    padding: 5rem 2rem;
     font-family: sans-serif;
 }
 
