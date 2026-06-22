@@ -418,5 +418,35 @@ button[type="submit"]:hover {
     color: #888;
     font-size: 0.8rem;
 }
+
+nav{
+    position: fixed;
+    background-color: #8b5e34 ;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
 /*  Dev 3 - fin  */
 /* ------------------------------------------------------------------------- */
